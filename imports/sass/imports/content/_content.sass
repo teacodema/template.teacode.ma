@@ -1,0 +1,53 @@
+.txt-wrapper
+    .item-link
+        background-size: cover
+        background-position: center center
+        ._item-link-txt
+            position: absolute
+            bottom: -50px
+            color: #000
+    .item-link-txt
+        transform: scale(1)
+        transition: transform 0.3s ease
+    img.icon
+        object-fit: contain
+        position: absolute
+        height: 100%
+        transform: scale(0)
+        transition: transform 0.3s ease
+    &:hover
+        img.icon
+            transform: scale(1)
+        .item-link-txt
+            transform: scale(0)
+.discord
+    background-color: #7289D9
+    &:hover, &:active, &:focus
+        background-color: #6b7fc9
+.facebook
+    background-color: #3C5B9B
+    &:hover, &:active, &:focus
+        background-color: #36528a
+.youtube
+    background-color: #e30000 //#FE0000
+    &:hover, &:active, &:focus
+        background-color: #ee0a0a
+.podcast
+    background-color: #ff7f0f
+    &:hover, &:active, &:focus
+        background-color: #eb740d
+.blog
+    background-color: #1DA1F3
+    &:hover, &:active, &:focus
+        background-color: #1a92dd
+.udemy
+    background-color: #EA5252
+    &:hover, &:active, &:focus
+        background-color: #cc4848
+
+.discord, .youtube, .podcast
+    transition: transform .3s ease
+    transform: scale(1)
+    &:hover
+        transform: scale(1.1)
+        // transform: translate(-5px, -5px)

@@ -1,0 +1,34 @@
+
+.fullscreen
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%
+    width: 100%
+
+.tc-container
+    background-color: red
+    width: 100%
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+    @media (min-width: 576px)
+        max-width: 540px
+    @media (min-width: 768px)
+        max-width: 720px
+    @media (min-width: 992px)
+        max-width: 960px
+    @media (min-width: 1200px)
+        max-width: 1000px
+
+.page, .page-content
+    position: relative
+    background-color: $tc-white
+.page-content
+    border-top: 1px solid $tc-grey
+.dark-mode
+    .page, .page-content
+        background-color: $tc-blue-dark-3
+    .page-content
+        border-top: 1px solid $tc-blue

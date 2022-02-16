@@ -1,0 +1,82 @@
+
+@keyframes heartBeat
+    0%
+        transform: scale(1)
+    17%
+        transform: scale(1.1)
+    35%
+        transform: scale(1)
+    52%
+        transform: scale(1.1)
+    70%, 100%
+        transform: scale(1)
+
+@keyframes disappear
+    0%
+        opacity: 1
+    50%
+        opacity: 0.7
+    75%
+        opacity: 0.3
+    90%
+        opacity: 0.1
+    100%
+        opacity: 0
+
+
+@keyframes spinBound
+    0%
+        transform: rotate(0deg) scale(1)
+    50%
+        transform: rotate(180deg) scale(.5)
+    100%
+        transform: rotate(360deg) scale(0)
+
+
+@keyframes spinClockWiseReverse
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(-360deg)
+
+@keyframes spinClockWise
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
+
+@keyframes moveRight
+    0%
+        transform: translateX(0)
+    50%
+        transform: translateX(10px)
+    100%
+        transform: translateX(0)
+
+@keyframes moveLeft
+    0%
+        transform: translateX(0)
+    50%
+        transform: translateX(-10px)
+    100%
+        transform: translateX(0)
+@keyframes upAndDown
+    // 0%
+    //     transform: translateY(0%) translateX(-50%)
+    0%
+        transform: translateY(-10%) translateX(-50%)
+    100%
+        transform: translateY(10%) translateX(-50%)
+
+@keyframes pushed
+    0%
+        transform: scale(1)
+    50%
+        transform: scale(.9)
+    100%
+        transform: scale(1)
+
+
+@keyframes spinner-border
+    to
+        transform: rotate(360deg)

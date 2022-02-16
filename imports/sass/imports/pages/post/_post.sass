@@ -1,0 +1,31 @@
+.posts
+    // border-top: 1px solid $tc-grey
+    // background-color: $tc-white
+    .post
+        a
+            text-decoration: underline
+            &:hover
+                text-decoration: none
+        .post-title *
+            color: $tc-blue-dark-1
+            font-size: 1.7rem
+        .post-tags a
+            color: $tc-black
+        .post-image img
+            // border: 5px solid $tc-blue-dark-1
+            border-radius: 5px
+            filter: drop-shadow(2px 4px 6px $tc-blue-dark-3)
+        .post-content
+            font-size: 18px
+            img
+                width: 100%
+                padding: 0
+                border: 2px inset $tc-blue-dark-1
+            iframe
+                border: 2px dashed $tc-blue-dark-1
+            p, iframe
+                margin-bottom: 1rem
+                &:last-child
+                    margin-bottom: 0
+        .btn-read-more a
+            color: $tc-black

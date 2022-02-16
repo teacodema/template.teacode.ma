@@ -1,0 +1,48 @@
+
+.wrapper-dark-mode
+    z-index: 9999
+    position: fixed
+    right: 20px
+    bottom: 20px
+
+.wrapper-dark-mode .toggle-dark-mode
+    width: 50px
+    height: 50px
+    background-color: $tc-blue-dark-3
+    border: 1px solid $tc-blue-dark-3
+    border-radius: 50%
+    box-shadow: -5px -5px 10px rgba($tc-grey-dark, 0.5), 5px 5px 10px rgba($tc-grey-dark, 0.5), -5px 5px 10px rgba($tc-grey-dark, 0.5), 5px -5px 10px rgba($tc-grey-dark, 0.5)
+    // box-shadow: -5px -5px 10px rgb(223 223 223 / 50%), 5px 5px 10px rgb(223 223 223 / 50%), -5px 5px 10px rgb(223 223 223 / 50%), 5px -5px 10px rgb(223 223 223 / 50%)
+
+
+.wrapper-dark-mode .toggle-dark-mode i.icon-mode
+    color: $tc-white
+    font-size: 1.3rem
+    top: 2px
+    position: relative
+    font-family: "Font Awesome 5 Free"
+    font-weight: 900
+    -webkit-font-smoothing: antialiased
+    display: inline-block
+    font-style: normal
+    font-variant: normal
+    text-rendering: auto
+    line-height: 1
+    &:before
+        content: '\f0eb'
+
+
+.wrapper-dark-mode .toggle-dark-mode.dark-mode
+    background-color: $tc-white
+    border: 1px solid $tc-white
+
+
+.wrapper-dark-mode .toggle-dark-mode.dark-mode i.icon-mode
+    color: $tc-blue-dark-3
+    font-size: 1.7rem
+    // font-weight: 400
+    // &:before
+    //     content: '\f0eb'
+
+.toggle-dark-mode.pushed
+    animation: pushed .3s linear

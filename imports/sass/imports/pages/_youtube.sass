@@ -1,0 +1,97 @@
+.videos
+    position: relative
+    // background-color: $tc-grey-light
+    .video-preview
+        border-radius: 5px
+        iframe
+            border-radius: 5px
+            width: 100%
+            min-height: 360px
+            @media (max-width: 1200px)
+                min-height: 320px
+            @media (max-width: 992px) 
+                min-height: 390px
+            @media (max-width: 768px) 
+                min-height: 300px
+            @media (max-width: 500px) 
+                min-height: 200px
+        .video-description
+            min-height: 500px
+            max-height: 600px
+            overflow-y: auto
+            box-shadow: inset -.2rem -.2rem 0.3rem $tc-grey
+            border: 1px solid  $tc-grey
+            border-top: none
+            line-break: anywhere
+            &::-webkit-scrollbar
+                width: 0.2rem
+            &::-webkit-scrollbar-track
+                background-color: $tc-white
+            &::-webkit-scrollbar-thumb
+                background-color: $tc-blue
+                box-shadow: inset 0 0 5px $tc-black-light
+    .video-list
+        // box-shadow: inset -.2rem -.2rem 0.3rem $tc-grey
+        // border: 1px solid  $tc-grey
+        border-radius: 5px
+        // min-height: 500px
+        // max-height: 600px
+        // overflow-y: auto
+        // padding-right: 1rem
+        .video-item
+            border-radius: 5px!important
+            background-color: $tc-grey-light-2
+            margin: 0
+            &:nth-child(n+2)
+                margin-top: 0.3rem
+            border-left: 5px solid transparent
+            &:hover
+                // background-color: $tc-grey
+                border-left: 5px solid $tc-blue
+            &.active
+                border-left: 5px solid $tc-blue
+                // background-color: rgba($tc-grey-dark, 0.5)
+                // background-color: rgba($tc-grey-dark, 0.2)
+        &::-webkit-scrollbar
+            width: 0.2rem
+        &::-webkit-scrollbar-track
+            background-color: $tc-white
+        &::-webkit-scrollbar-thumb
+            background-color: $tc-blue
+            box-shadow: inset 0 0 5px $tc-black-light
+    
+    .video-data
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        align-items: center
+        flex-wrap: nowrap
+        padding: 5px
+    .video-cover
+        position: relative
+        .video-icon
+            font-size: 1.1rem
+            position: relative
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            background-color: $tc-blue-dark-2
+            // border: 5px solid $tc-grey-dark
+            i
+                color: $tc-grey-light
+                position: absolute
+                left: 50%
+                top: 50%
+                transform: translate(-50%,-50%)
+    .video-duration
+        display: inline-block
+        position: absolute
+        right: 5px
+        bottom: 5px
+        background-color: $tc-black-almost
+        padding: 0 5px
+        font-size: 0.7rem
+        span
+            color: $tc-white
+    // .video-title
+    //     max-width: 250px

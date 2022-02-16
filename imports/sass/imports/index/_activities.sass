@@ -1,0 +1,101 @@
+.block-wrapper
+    .block-header
+        .icon
+            color: $tc-blue
+        .block-header-txt
+            font-size: 1.2rem
+    .block-body-txt
+        font-size: 1rem
+.activity-wrapper
+    position: relative
+    padding: 40px 15px
+    @media (max-width: 767px)
+        padding: 50px 0
+    // &:nth-child(odd)
+    //     background-color: $tc-blue
+    &:nth-child(odd)
+        background-color: $tc-grey-light
+    &:nth-child(even)
+        background-color: $tc-white
+        .activity-row
+            flex-direction: row-reverse
+        .activity-description
+            // padding-left: 50px
+            @media (max-width: 767px)
+                padding-left: 15px
+    .activity-header
+        display: flex
+        align-items: center
+        *
+            color: $tc-blue-dark-1
+        .activity-header-icon
+            color: $tc-blue-dark-1
+            font-size: 1.2rem
+        .activity-header-txt
+            margin-left: 0.5rem
+
+    .activity-body
+        .btn-join-us
+            display: inline-block
+            margin-top: 1.5rem
+            margin-left: 0.5em
+            a
+                // background-color: #ececec
+                border-radius: 5px
+                padding: 5px 10px 2px
+                transition: transform .3s ease, box-shadow .3s ease, background-color .3s ease
+                // box-shadow: 0 0 0 #ececec
+                // box-shadow:  0 0 0 $tc-grey, 0 0 0 $tc-grey-light
+            *
+                // font-weight: bold
+                // color: $tc-blue-dark-1
+                color: $tc-blue-dark-2
+            &:hover a
+                background-color: $tc-white
+                // box-shadow: -5px -5px 5px $tc-blue, 5px 5px 5px $tc-blue//, inset -5px 5px 5px $tc-blue, inset 5px -5px 5px $tc-blue
+                // transform: translate(-5px, -5px)
+                box-shadow: -5px -5px 10px rgba($tc-grey, 0.5), 5px 5px 10px rgba($tc-grey, 0.5), -5px 5px 10px rgba($tc-grey, 0.5), 5px -5px 10px rgba($tc-grey, 0.5)
+                // box-shadow: inset 5px 5px 0 #ececec, inset -5px -5px 0 #ececec, inset 5px -5px 0 #ececec, inset -5px 5px 0 #ececec
+                // *
+                //     color: $tc-blue
+        i
+            font-size: .7rem
+
+    .activity-img
+        position: relative
+        @media (max-width: 767px)
+            // display: none
+            // display: inline-block
+            // position: absolute
+            // transform: translate(30%, -20%)
+            // top: 0
+            // right: 0
+            // left: unset
+            // width: auto
+            .img-wrapper
+                // position: absolute
+                max-width: 400px
+                margin: 0 auto
+    //         img
+    //             height: 150px
+    //             opacity: .3
+    // .img-wrapper
+    //     img
+    //         max-height: 500px
+    //         @media (max-width: 767px)
+    //             max-height: 350px
+
+@media (max-width: 767px)
+    .activity-wrapper
+        // overflow: hidden
+        .activity-description
+            z-index: 2
+        .activity-img
+            position: static
+            .img-wrapper
+                position: absolute
+                right: 0
+                top: 0
+                transform: translate(30%, -30%)
+                opacity: .2
+                z-index: 0

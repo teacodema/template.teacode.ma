@@ -1,0 +1,32 @@
+.contributors
+    .contributor
+        .feature-img
+            position: relative
+            .contributor-badge
+                // font-size: 1.3rem
+                display: inline
+                position: absolute
+                right: 0
+                bottom: 0
+            .image
+                box-sizing: border-box
+                max-width: 100px
+                max-height: 100px
+                width: 100px
+                height: 100px
+                border-radius: 50%
+                border: 3px solid $tc-blue
+                overflow: hidden
+                background-image: url('/dist/assets/img/teacode/teacode.png')
+                background-position: center
+                background-size: cover
+                img
+                    max-width: 100px
+                    max-height: 100px
+                @media (max-width: 576px)
+                    border: 3px solid $tc-blue
+                    max-width: 70px
+                    max-height: 70px
+                    img
+                        max-height: 75px
+                        max-width: 75px

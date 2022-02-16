@@ -1,0 +1,95 @@
+.resources
+    // border-top: $tc-grey-light solid 1px
+    // background-color: $tc-white
+    // position: relative
+    h1
+        font-size: 2rem
+    .section
+        .section-header *
+            font-size: 1.25rem
+            font-weight: bold
+            font-family: Segoe UI
+        .section-body
+            padding-left: 1rem
+            .section-block
+                .section-block-header *
+                    font-size: 1.1rem
+                    font-weight: bold
+                    font-family: Segoe UI,serif
+                    border-bottom: 1px solid #ececec
+                    padding-bottom: 0.7rem
+                .section-block-body
+                    counter-increment: a
+                    .list-links
+                        padding: 0
+                        margin: 0
+                        counter-reset: b
+                        margin-bottom: 24px
+                        list-style-type: none
+                        column-gap: 10px
+                        columns: 3
+                        @media ( max-width: 768px )
+                            columns: 2
+                        @media ( max-width: 460px )
+                            columns: 1
+                        .list-link
+                            list-style-type: none
+                            counter-increment: b
+                            counter-increment: b
+                            break-inside: avoid
+                            margin: 0
+                            &::before
+                                content: ''
+                            .list-link-txt
+                                position: relative
+                                padding-left: 2.3rem
+                                margin-bottom: 5px
+                                a
+                                    color: $tc-blue-dark-1
+                                    &:hover
+                                        text-decoration: underline
+                                        color: $tc-blue-dark-1
+                                &::before
+                                    position: absolute
+                                    top: 4px
+                                    left: 0
+                                    font-family: Consolas,Lucida Console,Menlo,Monaco,monospace
+                                    font-size: 0.9rem
+                                    line-height: 16px
+                                    content: counter(a) "." counter(b)
+
+$colors: $tc-blue-dark-1, $tc-green-light, $tc-blue-dark-1
+
+.section
+    .section-header
+        position: relative
+        display: inline-block
+        padding: 5px 10px
+        border-radius: 5px
+        &:before
+            content: ""
+            position: absolute
+            top: 2px
+            right: -14px
+            height: 0
+            width: 0
+            border-style: solid
+            border-width: 15px 0 15px 15px
+        *
+            color: $tc-white
+
+    @for $i from 1 through length($colors)
+        $color: nth($colors, $i)
+        &:nth-child(#{$i}) .section-header
+            background-color: $color
+            &:before
+                border-color: transparent transparent transparent $color
+
+    //&:nth-child(1) .section-header
+    //    background-color: $tc-blue
+    //    &:before
+    //        border-color: transparent transparent transparent $tc-blue
+    //&:nth-child(2) .section-header
+    //    background-color: orange
+    //    &:before
+    //        border-color: transparent transparent transparent orange

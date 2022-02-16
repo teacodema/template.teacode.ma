@@ -1,0 +1,23 @@
+
+.pagination-wrapper
+    display: flex
+    *
+        transition: unset
+        &:focus
+            box-shadow: unset
+    .page-item
+        &.active .page-link
+            border: none
+            color: $tc-black
+            background-color: $tc-white
+        &.disabled .page-link
+            color: $tc-black
+            background-color: $tc-white
+        .page-link
+            border: none
+            color: $tc-blue
+            &:hover
+                background-color: $tc-white
+        a
+            color: $tc-black
+

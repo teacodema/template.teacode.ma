@@ -1,0 +1,26 @@
+
+.list-group
+    width: 100%
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    .list-group-item
+        margin: 5px
+        display: inline-block
+        padding: 0
+        background-color: transparent
+        border-radius: 5px
+        overflow: hidden
+        border: none
+        // border: 2px solid #337ab7
+        &.link
+            transition: all .3s ease
+            transform: scale(1)
+            &:hover
+                transform: scale(1.1)
+
+        img
+            height: 100px
+            width: 100px
+            // border-radius: 5px
+            display: inline-block
