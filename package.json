@@ -8,16 +8,14 @@
     "@popperjs/core": "^2.10.2",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.0.1",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-pug": "^5.0.0",
-    "gulp-sass": "^5.1.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6",
     "particles.js": "^2.0.0",
     "pug": "^3.0.2",
     "sass": "^1.49.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.69.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
