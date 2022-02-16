@@ -1,0 +1,31 @@
+{
+  "name": "template.teacode.ma",
+  "version": "1.0.0",
+  "description": "This is the template for the TeaCode Community website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.10.2",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "jquery": "^3.5.1",
+    "particles.js": "^2.0.0",
+    "pug": "^3.0.2",
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/drissboumlik/template.teacode.ma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/drissboumlik/template.teacode.ma#readme"
+}
