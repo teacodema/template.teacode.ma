@@ -1,15 +1,15 @@
 doctype html
 html(lang='en')
     head
-        include partials/meta.html
-        include partials/assets.html
+        include partials/meta.pug
+        include partials/assets.pug
         title TeaCode | Turning Tea into Code
     body.antialiased.dark-mode
         .wrapper
-            include partials/banner.html
-            include partials/menu.html
+            include partials/banner.pug
+            include partials/menu.pug
             .container-fluid.p-0
-                include partials/about.html
-                include partials/activities.html
-            include partials/footer.html
-        include partials/dark-btn.html
+                include partials/about.pug
+                include partials/activities.pug
+            include partials/footer.pug
+        include partials/dark-btn.pug

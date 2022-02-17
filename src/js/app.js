@@ -1,5 +1,5 @@
-// window._ = require('lodash');
-import { drawBrandText, initParticlesJS, initDarkMode, initActions } from "/functions.js";
+
+import { drawBrandText, initParticlesJS, initDarkMode, initActions } from "./functions.js";
 
 $(function () {
     try {

@@ -53,7 +53,7 @@ const drawBrandText = function() {
     |  $$$$/|  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$/|  $$$$$$$|  $$$$$$$
      \\___/   \\_______/ \\_______/ \\_______/ \\______/  \\_______/ \\_______/
     `;
-    console.log(text);
+    // console.log(text);
 }
 
 const initParticlesJS = function () {
@@ -61,7 +61,7 @@ const initParticlesJS = function () {
         // setTimeout(() => {
         //     $('.loader-wrapper').addClass('disappear');
         // }, 500);
-        particlesJS.load('particles-js', '/plugins/particles/particles.min.json');
+        particlesJS.load('particles-js', './assets/plugins/particles/particles.min.json');
     }
 }
 
