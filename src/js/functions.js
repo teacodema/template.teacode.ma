@@ -53,7 +53,7 @@ const drawBrandText = function() {
     |  $$$$/|  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$/|  $$$$$$$|  $$$$$$$
      \\___/   \\_______/ \\_______/ \\_______/ \\______/  \\_______/ \\_______/
     `;
-    // console.log(text);
+    console.log(text);
 }
 
 const initParticlesJS = function () {
