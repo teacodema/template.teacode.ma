@@ -1,0 +1,11 @@
+doctype html
+html(lang='en')
+    head
+        include ../partials/_meta.pug
+        include ../partials/_assets.pug
+        title TeaCode | Turning Tea into Code
+    body.antialiased.dark-mode
+        .wrapper
+            include ../partials/_banner.pug
+            block content
+        include ../partials/_dark-btn.pug

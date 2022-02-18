@@ -1,0 +1,11 @@
+extends ./_app.pug
+
+block content
+    include ../partials/_menu.pug
+    .container-fluid.p-0
+        include ../partials/_about.pug
+        section.p-md-5.py-5.px-2.page-content#page-content
+            .container
+                block pagecontent
+    block addons
+    include ../partials/_footer.pug
