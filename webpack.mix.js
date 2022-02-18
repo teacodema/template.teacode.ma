@@ -8,7 +8,7 @@ mix
     .js('./src/js/app.js', 'dist/js')
     .sass('./src/sass/externals.sass', 'css')
     .sass('./src/sass/app.sass', 'css')
-    .pug('src/*.pug', '../dist')
+    .pug('src/views/*.pug', '../../dist')
     .setPublicPath('./dist')
     // .purgeCss({
     //     extend: {
