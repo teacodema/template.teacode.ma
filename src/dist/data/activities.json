@@ -1,0 +1,86 @@
+[
+    {
+        "img": "/assets/img/activities/ws.svg",
+        "icon": "<i class='fas fa-laptop'></i>",
+        "title": "workshops",
+        "slug": "workshops",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap'>differents subjects</span> (Project management, Programming, DevOps ...etc), here is the details :</p>",
+            "list": [
+                "learn the <span class='key-word white-space-nowrap'>basics</span> of a language, framework or technology.",
+                "work/collaborate with other members to <span class='key-word white-space-nowrap'>sharp</span> your problem solving skills.",
+                "build <span class='key-word white-space-nowrap'>projects</span> from <span class='key-word white-space-nowrap'>scratch</span>.",
+                "<span class='key-word white-space-nowrap'>solve</span> coding challenges together."
+            ]
+        }
+    },
+    {
+        "img": "/assets/img/activities/__various.svg",
+        "icon": "<i class='fas fa-mug-hot'></i>",
+        "title": "hangouts",
+        "slug": "hangouts",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to <span class='key-word white-space-nowrap'>answer</span> questions such as: </p>",
+            "list": [
+                "what <span class='key-word white-space-nowrap'>should I learn</span> to become a good software developer ?",
+                "it's <span class='key-word white-space-nowrap'>hard</span> for me to learn coding.",
+                "what to do <span class='key-word white-space-nowrap'>after highschool ?</span>",
+                "i don't know how to <span class='key-word white-space-nowrap'>look for a job</span> as a software developer ?",
+                "what are <span class='key-word white-space-nowrap'>soft skills</span> ?",
+                "<span class='key-word white-space-nowrap'>do I need math</span> to become a software developer ?",
+                "And any <span class='key-word white-space-nowrap'>other</span> subjects related to <span class='key-word white-space-nowrap'>studies/career</span>."
+            ]
+        }
+    },
+    {
+        "img": "/assets/img/activities/communication.svg",
+        "icon": "<i class='fas fa-comments'></i>",
+        "title": "communication",
+        "slug": "communication",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>join the online meetings to practice communication in English/French <span class='key-word white-space-nowrap'>every week</span>, here is why :</p>",
+            "list": [
+                "ability to communicate with the language <span class='key-word'>itself</span>.",
+                "create <span class='key-word'>connections</span> with other new people.",
+                "increase the chances to land an <span class='key-word white-space-nowrap'>interview/job</span>.",
+                "new doors opened for <span class='key-word'>more</span> knowledge.",
+                "don't underestimate yourself, because <span class='key-word white-space-nowrap'>we don't</span>."
+            ]
+        }
+    },
+    {
+        "img": "/assets/img/activities/pair-programming.svg",
+        "icon": "<i class='fas fa-code'></i>",
+        "title": "coding challenges",
+        "slug": "coding-challenges",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to <span class='key-word white-space-nowrap'>train</span> your mind and prepare for professional coding challenges.</p>",
+            "listType": "ol",
+            "list": [
+                "<span class='key-word white-space-nowrap'>Enhances</span> problem-solving skills.",
+                "It's <span class='key-word white-space-nowrap'>guaranteed</span> brain exercise.",
+                "It's a way to <span class='key-word white-space-nowrap'>practice</span> fast coding.",
+                "More <span class='key-word white-space-nowrap'>attractive</span> to major companies.",
+                "Provides a significant technical <span class='key-word white-space-nowrap'>edge</span> during job interviews.",
+                "It's a way to <span class='key-word white-space-nowrap'>focus</span> on the fundamentals."
+            ]
+        }
+    },
+    {
+        "img": "/assets/img/activities/mock-interview.svg",
+        "icon": "<i class='fas fa-briefcase'></i>",
+        "title": "mock interview",
+        "slug": "mock-interview",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to <span class='key-word white-space-nowrap'>work</span> on verbal/nonverbal communication skills and become <span class='key-word white-space-nowrap'>familiar</span> with interview settings, here is how :</p>",
+            "listType": "ol",
+            "list": [
+                "choose an interviewer <span class='key-word white-space-nowrap'>by asking</span> the server members.",
+                "choose/share a <span class='key-word white-space-nowrap'>job offer</span> as example with the interviewer and <span class='key-word white-space-nowrap'>start</span> the interview.",
+                "share your <span class='key-word white-space-nowrap'>resume</span> with the interviewer (use screen sharing, shared link ... etc).",
+                "take your time <span class='key-word white-space-nowrap'>answering</span> questions.",
+                "the interviewer will <span class='key-word white-space-nowrap'>review</span> the mock interview with you at the end."
+            ]
+        }
+    }
+]

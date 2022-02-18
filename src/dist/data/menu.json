@@ -1,0 +1,17 @@
+[
+    {
+        "title": "about",
+        "slug": "about",
+        "ignoreJson": true
+    },
+    {
+        "title": "activities",
+        "slug": "activities",
+        "ignoreJson": false
+    },
+    {
+        "title": "find us",
+        "slug": "find_us",
+        "ignoreJson": false
+    }
+]

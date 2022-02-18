@@ -1,0 +1,72 @@
+[
+    {
+        "title": "videos",
+        "slug": "videos",
+        "target": "_blank"
+    },
+    {
+        "title": "podcast",
+        "slug": "p/coming-soon",
+        "hidden": true
+    },
+    {
+        "title": "events",
+        "slug": "events",
+        "target": "_blank"
+    },
+    {
+        "title": "patreon",
+        "slug": "patreon",
+        "target": "_blank",
+        "hidden": true
+    },
+    {
+        "title": "blog",
+        "slug": "p/blog",
+        "hidden": true
+    },
+    {
+        "title": "book interview",
+        "slug": "p/interview",
+        "hidden": true
+    },
+    {
+        "title": "contributors",
+        "slug": "p/contributors"
+    },
+    {
+        "title": "calendar",
+        "slug": "p/calendar",
+        "hidden": true
+    },
+    {
+        "title": "resources",
+        "slug": "p/resources",
+        "hidden": true
+    },
+    {
+        "title": "rules",
+        "slug": "rules",
+        "target": "_blank"
+    },
+    {
+        "title": "FAQ",
+        "slug": "faq",
+        "target": "_blank"
+    },
+    {
+        "title": "privacy",
+        "slug": "p/privacy",
+        "hidden": true
+    },
+    {
+        "title": "feedback",
+        "slug": "p/feedback",
+        "hidden": true
+    },
+    {
+        "title": "roadmaps",
+        "slug": "roadmaps",
+        "target": "_blank"
+    }
+]
