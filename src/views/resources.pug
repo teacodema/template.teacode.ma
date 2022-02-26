@@ -1,0 +1,26 @@
+extends ./layout/_page-content.pug
+
+block pagecontent
+    .resources
+        .row.mt-5
+            .col-12
+                h2.text-center.mb-5 Resources
+        .row.my-3
+            .col-lg-10.offset-lg-1.col-12
+                - var x = [{"title":"front end development","slug":"front-end-development","items":[{"title":"html/css","slug":"html-css","links":[{"title":"css diner","slug":"","href":"https://flukeout.github.io/"},{"title":"flexBox froggy","slug":"","href":"https://flexboxfroggy.com/"},{"title":"css tricks","slug":"","href":"https://css-tricks.com/"},{"title":"w3schools","slug":"","href":"https://w3schools.com"},{"title":"codecademy","slug":"","href":"https://www.codecademy.com/"},{"title":"mdn","slug":"","href":"https://developer.mozilla.org/en-US/"},{"title":"dash","slug":"","href":"https://dash.generalassemb.ly/"}]},{"title":"javascript","slug":"javascript","links":[{"title":"freecodecamp","slug":"","href":"https://freecodecamp.org/"},{"title":"modern js tutorial","slug":"","href":"https://javascript.info/"},{"title":"untrusted javascript","slug":"","href":"https://alexnisnevich.github.io/untrusted/"},{"title":"learnjavascript.online","slug":"","href":"https://learnjavascript.online/"},{"title":"learn-js.org","slug":"","href":"https://www.learn-js.org/"},{"title":"eloquent javascript","slug":"","href":"https://eloquentjavascript.net/"},{"title":"js the right way","slug":"","href":"https://jstherightway.org/"}]}]},{"title":"back end development","slug":"back-end-development","items":[{"title":"php","slug":"php","links":[{"title":"php the right way","slug":"","href":"https://phptherightway.com/"},{"title":"php docs","slug":"","href":"https://php.net/"},{"title":"killer php","slug":"","href":"https://www.killerphp.com/"},{"title":"hacking with php","slug":"","href":"http://www.hackingwithphp.com/"},{"title":"codecademy","slug":"","href":"https://www.codecademy.com/learn/learn-php"},{"title":"php apprentice","slug":"","href":"https://phpapprentice.com/"},{"title":"geeks for geeks","slug":"","href":"https://www.geeksforgeeks.org/php/"},{"title":"php tutorial","slug":"","href":"https://php5-tutorial.com/"}]},{"title":"nodejs","slug":"nodejs","links":[{"title":"nodeschool","slug":"","href":"https://nodeschool.io/"},{"title":"freecodecamp","slug":"","href":"https://www.freecodecamp.org/learn/apis-and-microservices/basic-node-and-express/"}]},{"title":"java","slug":"java","links":[{"title":"codegym","slug":"","href":"https://codegym.cc/"}]},{"title":"python","slug":"python","links":[{"title":"NeuralNine","slug":"","href":"https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"}]}]}]
+                each val, index in x
+                    .section.mb-5
+                        .section-header.mb-4
+                            h4.text-capitalize #{val.title}
+                        .section-body
+                            each _val, _index in val.items
+                                .section-block.mb-4
+                                    .section-block-header.mb-3
+                                        h5.text-capitalize #{_val.title}
+                                    .section-block-body
+                                        ul.list-links.mb-0
+                                            each __val, __index in _val.links
+                                                li.list-link
+                                                    .list-link-txt
+                                                        a.text-capitalize(href=__val.href target='_blank' rel='noopener noreferrer') #{__val.title }
+                                            
