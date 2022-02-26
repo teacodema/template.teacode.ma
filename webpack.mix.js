@@ -8,7 +8,14 @@ mix
     .js('./src/js/app.js', 'dist/js')
     .sass('./src/sass/externals.sass', 'css')
     .sass('./src/sass/app.sass', 'css')
-    .pug('src/views/*.pug', '../../dist')
+    .pug('src/views/*.pug', '../../dist', 
+        {
+            // seeds:'./src/js/data',
+            pug: {
+                pretty: true,
+                // debug: true
+            },
+        })
     .setPublicPath('./dist')
     // .purgeCss({
     //     extend: {
