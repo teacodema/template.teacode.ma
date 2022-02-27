@@ -1,0 +1,11 @@
+extends ./layout/_app.pug
+
+block js-after
+    script(defer='' src='./js/app-2.js')
+
+block content
+    include ./partials/_menu.pug
+    .container-fluid.p-0
+        include ./partials/_about-2.pug
+        include ./partials/_activities.pug
+    include ./partials/_footer.pug

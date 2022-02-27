@@ -1,12 +1,13 @@
-
-import { drawBrandText, initParticlesJS, initDarkMode, initActions } from "./functions.js";
+window.$ = require('jquery');
+import { drawBrandText, initParticlesJS, initDarkMode, initGlobalActions } from "./functions";
 
 $(function () {
+
     try {
+        initGlobalActions();
         drawBrandText();
         initParticlesJS();
-        initActions();
-        initDarkMode(); 
+        initDarkMode();
     } catch (error) {
         console.log(error);
     }

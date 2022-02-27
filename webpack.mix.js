@@ -6,6 +6,7 @@ mix
     .copy('src/dist/fonts', 'dist/fonts')
     .copy('src/dist/assets', 'dist/assets')
     .js('./src/js/app.js', 'dist/js')
+    .js('./src/js/app-2.js', 'dist/js')
     .sass('./src/sass/externals.sass', 'css')
     .sass('./src/sass/app.sass', 'css')
     .pug('src/views/*.pug', '../../dist', 
