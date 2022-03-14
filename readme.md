@@ -10,15 +10,11 @@ Visit: [teacode.ma](https://teacode.ma/)
 
 You start by cloning the repo
 
-```bash
-git clone https://github.com/teacodema/template.teacode.ma.git
-```
+1. `git clone https://github.com/teacodema/template.teacode.ma.git`
+
+2. `cd template.teacode.ma`
 
 ## Running
-
-```bash
-cd template.teacode.ma
-```
 
 Basically the markeup is written in [pug](https://pugjs.org/) an [sass](https://sass-lang.com/), so in order to generate the html/css/js and assets files run :
 
