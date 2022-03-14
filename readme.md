@@ -16,7 +16,7 @@ You start by cloning the repo
 
 ## Running
 
-Basically the markeup is written in [pug](https://pugjs.org/) an [sass](https://sass-lang.com/), so in order to generate the html/css/js and assets files run :
+Basically the markeup and styles are written in [pug](https://pugjs.org/) and [sass](https://sass-lang.com/), so in order to generate the html/css/js and assets files run :
 
 1. `npm install`
 2. `npm run dev` or `npx mix`
