@@ -1,4 +1,4 @@
-[<img src="https://teacode.ma/assets/img/teacode/simple-cover.png" />](https://teacode.ma)
+[<img src="https://community.drissboumlik.com/assets/img/teacode/simple-cover.png" />](https://community.drissboumlik.com)
 
 # TeaCode Community
 
