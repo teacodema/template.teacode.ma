@@ -4,7 +4,7 @@
 
 This is the template for the TeaCode Community website
 
-Visit: [teacode.ma](https://teacode.ma/)
+Visit: [community.drissboumlik.com](https://community.drissboumlik.com/)
 
 ## Cloning
 
